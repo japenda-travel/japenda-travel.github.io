@@ -1,0 +1,50 @@
+#principal{
+    width: 1100px;
+    margin: auto;
+    border-radius: 10px;
+    background-image: url(f4.jpg);
+    background-size: contain;
+}
+#v1{
+    text-align: center;
+    text-shadow:rgb(28, 98, 145) 5px 5px 5px;
+    font-size:80px;
+    color: white;
+}
+h2{
+    color: white;
+}
+h1{
+    text-align: center;
+    color: white;
+    text-shadow:black 1px 1px 1px;
+    margin-top: 50px;
+    background-color: rgb(28, 98,145);
+}
+.description{
+    text-align: center;
+    border-radius:10px ;
+    background-color:rgb(28, 98, 145);
+    height:190px ;
+    color: white;
+    margin: auto;
+}
+#bos>img, #basilique>img,#topkapi>img,#mosquee>img,#chora>img,#hammam>img,#bazar>img,#gastroist>img{
+    display: block;
+    width: 600px;
+    height: 300px;
+    margin: auto;
+    border-radius: 10px;
+    border-style: groove;
+    border-color:rgb(28, 98, 145) ;
+}
+#bazar>img,#gastroist>img{
+    height:300px ;
+    width: 400px;
+}
+.box{
+    display: flex;
+}
+body{
+    background-color:rgb(28, 98, 145);
+}

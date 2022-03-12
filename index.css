@@ -1,0 +1,146 @@
+body{
+    background-color: rgb(28, 98, 145);
+}
+#principale{
+    padding: 0px;
+    height: 1000px;
+    margin: auto;
+}
+#entete{
+    background-color: beige;
+    height: 80px;
+    border-radius: 10px;
+}
+#domaine{
+    text-align: center;
+    height: 20px;
+    font-weight: bold;
+    color: black
+}
+#menu{
+    height: 60px;
+    background-color: beige;
+}
+li{
+    display:inline-block;
+    color:rgb(28, 98, 145) ;
+    width: 170px;
+    border-radius:20px;
+    text-align: center;
+    background-size: cover;
+    font-weight: bolder;
+}
+li:hover{
+    color: white;
+    background-color:rgb(28, 98, 145) ;
+    height: 40px;
+}
+#contenu{
+    background-color: rgb(28, 98, 145);
+    height: 450px;
+}
+#pied{
+    background-color:beige;
+    height: 150px;
+    width: 1340px;
+    margin: auto;
+}
+#imprinc{
+    height: 400px;
+    background-image: url(imp1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    width: 900px;
+    margin: auto;
+    opacity: 0.9;
+    box-shadow:2px 2px black ;
+    margin-top: 25px;
+}
+#principale,#entete,#contenu{
+    width: 1100px;
+}
+#h3{
+    padding-top: 7px;
+    padding-bottom: 2px;
+}
+.intro{
+    color: white;
+    opacity: 1;
+}
+#gauche1{
+    background-color:black;
+    float: left;
+    width: 32%;
+    background-image: url(piramydegizeh.jfif);
+    background-size: cover;
+}
+#gauche2{
+    background-color:black;
+    float: left;
+    width: 32%;
+    background-image: url(leticia.jfif);
+    background-size: cover;
+}
+h2{
+    color: white;
+    font-weight:bold;
+    text-shadow: black 2px 2px 0.5px;
+    margin-top: 0.2px;
+    margin-left: 5px;
+}
+#mil1{
+    background-color:black;
+    float:left;
+    width: 32%;
+    background-image: url(istanbul.jpg);
+    background-size: cover;
+}
+#droite1{
+    background-color:black;
+    float:left;
+    width: 32%;
+    background-image: url(nagoya.jpg);
+    background-size: cover;
+}
+#droite2{
+    background-color:black;
+    float:left;
+    width: 32%;
+    background-image: url(dubai.jpg);
+    background-size: cover;
+}
+#gauche1,#gauche2,#mil1,#droite1,#droite2{
+    display: inline-block;
+    height: 170px;
+    border-radius: 25px;
+    background-repeat:no-repeat;
+    opacity: 0.9;
+    border-style:groove;
+}
+.hover:hover{
+    transform: scale(0.9); 
+    transition: 0.5s;
+}
+textarea{
+    border: rgb(28, 98, 145) 2px solid;
+    display: block;
+    border-radius: 15px;
+    width: 400px;
+}
+label{
+    font-size: large;
+    text-align: center;
+    margin-left: 80px;
+}
+form{
+    margin-left: 50px;
+}
+.bout{
+    box-shadow: 2px 2px rgb(28, 98, 145);
+    border-radius: 20px;
+    margin-top: 10px;
+
+}
+
+

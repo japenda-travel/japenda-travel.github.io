@@ -1,0 +1,45 @@
+#principal{
+    width: 1200px;
+    margin: auto;
+    background-image: url(f12.jpg);
+    background-size: contain;
+    border-radius: 10px;
+}
+#v1{
+    text-align: center;
+    text-shadow: rgb(28, 98,145) 5px 5px 5px;
+    font-size: 80px;
+    color: white;
+}
+h2{
+    color: black;
+}
+h1{
+    text-align: center;
+    color: white;
+    text-shadow: brown 1px 1px 1px;
+    margin-top: 50px;
+    background-color:rgb(28, 98,145) ;
+}
+.description{
+    text-align: center;
+    border-radius:10px ;
+    background-color: rgb(28, 98,145);
+    height: 215px ;
+    color: white;
+    margin: auto;
+
+}
+#lac>img, #ile>img, #fleuvam>img,#Spécialité>img,#reservena>img{
+    display: block;
+    width: 550px;
+    height: 300px;
+    margin: auto;
+    border-radius: 10px;
+}
+.box{
+    display: flex;
+}
+body{
+    background-color: rgb(28, 98,145);
+}
